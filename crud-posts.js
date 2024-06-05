@@ -165,6 +165,12 @@ createCategory('Sport', (category) => {
                 { title: 'Nuovo Titolo' },
                 (updatedPost) => {
                   console.log('Updated Post:', updatedPost);
+                  deletePost(
+                    'vittoria-storica-nel-derby-della-madonnina',
+                    (deletedPost) => {
+                      console.log('Deleted Post:', deletedPost);
+                    }
+                  );
                 }
               );
             });
