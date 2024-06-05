@@ -1,6 +1,7 @@
 # PRISMAJS BLOG
 
-Create un nuovo progetto Node.js (senza Express) ed installate la Prisma CLI e il Prisma Client. Successivamente definite i modelli Post, Category e Tag nel file schema.prisma Il Post deve contenere le seguenti proprietà:
+Create un nuovo progetto Node.js (senza Express) ed installate la Prisma CLI e il Prisma Client.
+Successivamente definite i modelli Post, Category e Tag nel file schema.prisma Il Post deve contenere le seguenti proprietà:
 
 - title
 - slug (deve essere univoco)
