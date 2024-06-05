@@ -4,7 +4,8 @@
   "description": "Create un nuovo progetto Node.js (senza Express) ed installate la Prisma CLI e il Prisma Client. Successivamente definite i modelli Post, Category e Tag nel file schema.prisma Il Post deve contenere le seguenti proprietà:",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "prisma migrate dev --name"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
     "prisma": "^5.15.0"
   },
   "dependencies": {
-    "@prisma/client": "^5.15.0"
+    "@prisma/client": "^5.15.0",
+    "slugify": "^1.6.6"
   }
 }
